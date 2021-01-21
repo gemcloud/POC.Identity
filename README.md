@@ -2,8 +2,8 @@
 ## 1. AspNetCore.Identity.EntityFrameworkCore 
       to use "Fluent API" Configuration.
 ## 2. Migration by below 2 commands (Code first to create Databaase on Sql Server)
-PM> Add-Migration CreateIdentity -Context PocApplicationDbContext
-PM> Update-Database -Context PocApplicationDbContext -verbose
+      PM> Add-Migration CreateIdentity -Context PocApplicationDbContext
+      PM> Update-Database -Context PocApplicationDbContext -verbose
 
 ## 3. Add Custome Columns on [AspNetUsers] [ApplicationRoles] 
 
