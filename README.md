@@ -1,4 +1,4 @@
-# POC 
+# POC AspNetCore Web Tech
 ## 1. AspNetCore.Identity.EntityFrameworkCore 
       to use "Fluent API" Configuration.
 ## 2. Migration by below 2 commands (Code first to create Databaase on Sql Server)
