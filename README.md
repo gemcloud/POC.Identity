@@ -6,6 +6,7 @@
       PM> Update-Database -Context PocApplicationDbContext -verbose
 
 ## 3. Add Custome Columns on [AspNetUsers] [ApplicationRoles] 
+      public class PocApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
 
 ## 4. Add more entities
       Add [DashboardMenu] [LinkRolesMenus] 
