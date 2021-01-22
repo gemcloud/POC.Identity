@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/lib/jquery/"
+    }
+  ,
+{
+  "library": "animate.css@4.1.1",
+  "destination": "wwwroot/lib/animate.css/"
+}
+,
+{
+  "library": "hamburgers@1.1.3",
+  "destination": "wwwroot/lib/hamburgers/"
+}
+,
+{
+  "library": "select2@4.0.13",
+  "destination": "wwwroot/lib/select2/"
+}
+]
+}
