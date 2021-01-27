@@ -70,10 +70,12 @@ namespace POC.Identity.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -97,11 +99,17 @@ namespace POC.Identity.Migrations
                     b.Property<string>("RoleId")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("UserId", "RoleId");
 
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUserRole<string>");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -110,10 +118,12 @@ namespace POC.Identity.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -175,6 +185,32 @@ namespace POC.Identity.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            ConcurrencyStamp = "8fd9396a-4cf4-440e-a3ee-8630e84657c5",
+                            Description = "Super Admin with all rights...",
+                            Name = "Manager",
+                            NormalizedName = "MANAGER"
+                        },
+                        new
+                        {
+                            Id = "29738c82-0148-4ab9-89fe-da5eb23ede74",
+                            ConcurrencyStamp = "66e61c0d-0885-426c-9ba3-dea009d8572f",
+                            Description = "Can View Dashboard, Admins & Roles",
+                            Name = "Supervisor",
+                            NormalizedName = "SUPERVISOR"
+                        },
+                        new
+                        {
+                            Id = "d324de18-2453-4d6c-b807-85d090c8bec5",
+                            ConcurrencyStamp = "50ba023a-926a-4236-b7bf-fa93569e6e23",
+                            Description = "Can View Dashboard &  Admins List",
+                            Name = "Developer",
+                            NormalizedName = "DEVELOPER"
+                        });
                 });
 
             modelBuilder.Entity("POC.Identity.Infrastructure.Entities.AspNetIdentity.ApplicationUser", b =>
@@ -246,6 +282,59 @@ namespace POC.Identity.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1fcdfddc-3eed-43a1-b34b-2c082c185de0",
+                            AccessFailedCount = 0,
+                            CompanyId = 0,
+                            ConcurrencyStamp = "0172a50a-3974-4e0d-a281-ebe2570b634a",
+                            Email = "manager@gmail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "MANAGER@GMAIL.COM",
+                            NormalizedUserName = "MANAGERTIGER",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBUNskNj7w/UjmTY4/uHSZMvzFup6o+Zxu5qA7yALQKnbx0tOctfS9L08r0vm2A3Yg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "TSBT2JIVTL3HKCHKTKNDYGJMQXXPGEYQ",
+                            TwoFactorEnabled = false,
+                            UserName = "ManagerTiger"
+                        },
+                        new
+                        {
+                            Id = "a01f0f1f-3542-4950-9c3f-98064b9ca69a",
+                            AccessFailedCount = 0,
+                            CompanyId = 0,
+                            ConcurrencyStamp = "f48a7cd7-f14b-4e87-b219-3d8ee9a17cfa",
+                            Email = "Supervisor@gmail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "SUPERVISOR@GMAIL.COM",
+                            NormalizedUserName = "SUPERTIGER",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBUNskNj7w/UjmTY4/uHSZMvzFup6o+Zxu5qA7yALQKnbx0tOctfS9L08r0vm2A3Yg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "TSBT2JIVTL3HKCHKTKNDYGJMQXXPGEYQ",
+                            TwoFactorEnabled = false,
+                            UserName = "SuperTiger"
+                        },
+                        new
+                        {
+                            Id = "cd5f6cec-60c7-461a-9825-f074c2dcd757",
+                            AccessFailedCount = 0,
+                            CompanyId = 0,
+                            ConcurrencyStamp = "cce71711-e6f5-4694-abcf-5c4ffca6fbdf",
+                            Email = "Developer@gmail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "DEVELOPER@GMAIL.COM",
+                            NormalizedUserName = "DEVTIGER",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBUNskNj7w/UjmTY4/uHSZMvzFup6o+Zxu5qA7yALQKnbx0tOctfS9L08r0vm2A3Yg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "TSBT2JIVTL3HKCHKTKNDYGJMQXXPGEYQ",
+                            TwoFactorEnabled = false,
+                            UserName = "DevTiger"
+                        });
                 });
 
             modelBuilder.Entity("POC.Identity.Infrastructure.Entities.Category", b =>
@@ -304,6 +393,71 @@ namespace POC.Identity.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DashboardMenus");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateCreated = new DateTime(2021, 1, 24, 0, 30, 44, 316, DateTimeKind.Utc).AddTicks(1452),
+                            Icon = "fa fa-dashboard",
+                            Name = "Dashboard",
+                            ParentId = 0,
+                            Url = "/"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DateCreated = new DateTime(2021, 1, 24, 0, 30, 44, 316, DateTimeKind.Utc).AddTicks(5436),
+                            Icon = "fa fa-users",
+                            Name = "Admins",
+                            ParentId = 0,
+                            Url = "#"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DateCreated = new DateTime(2021, 1, 24, 0, 30, 44, 316, DateTimeKind.Utc).AddTicks(5498),
+                            Icon = "fa fa-plus",
+                            Name = "Create Admin",
+                            ParentId = 2,
+                            Url = "/Admins/Create"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DateCreated = new DateTime(2021, 1, 24, 0, 30, 44, 316, DateTimeKind.Utc).AddTicks(5501),
+                            Icon = "fa fa-users",
+                            Name = "Manage Admins",
+                            ParentId = 2,
+                            Url = "/Admins/Index"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DateCreated = new DateTime(2021, 1, 24, 0, 30, 44, 316, DateTimeKind.Utc).AddTicks(5502),
+                            Icon = "fa fa-lock",
+                            Name = "Roles",
+                            ParentId = 0,
+                            Url = "#"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DateCreated = new DateTime(2021, 1, 24, 0, 30, 44, 316, DateTimeKind.Utc).AddTicks(5503),
+                            Icon = "fa fa-loc",
+                            Name = "Create Role",
+                            ParentId = 5,
+                            Url = "/RolesAdmin/Create"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            DateCreated = new DateTime(2021, 1, 24, 0, 30, 44, 316, DateTimeKind.Utc).AddTicks(5504),
+                            Icon = "fa fa-lock",
+                            Name = "Manage Roles",
+                            ParentId = 5,
+                            Url = "/RolesAdmin/Index"
+                        });
                 });
 
             modelBuilder.Entity("POC.Identity.Infrastructure.Entities.LinkRolesMenu", b =>
@@ -327,6 +481,128 @@ namespace POC.Identity.Migrations
                     b.HasIndex("MenuId");
 
                     b.ToTable("LinkRolesMenus");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 47,
+                            AppRoleId = "29738c82-0148-4ab9-89fe-da5eb23ede74",
+                            MenuId = 1
+                        },
+                        new
+                        {
+                            Id = 48,
+                            AppRoleId = "29738c82-0148-4ab9-89fe-da5eb23ede74",
+                            MenuId = 2
+                        },
+                        new
+                        {
+                            Id = 49,
+                            AppRoleId = "29738c82-0148-4ab9-89fe-da5eb23ede74",
+                            MenuId = 4
+                        },
+                        new
+                        {
+                            Id = 50,
+                            AppRoleId = "29738c82-0148-4ab9-89fe-da5eb23ede74",
+                            MenuId = 5
+                        },
+                        new
+                        {
+                            Id = 51,
+                            AppRoleId = "29738c82-0148-4ab9-89fe-da5eb23ede74",
+                            MenuId = 6
+                        },
+                        new
+                        {
+                            Id = 52,
+                            AppRoleId = "29738c82-0148-4ab9-89fe-da5eb23ede74",
+                            MenuId = 7
+                        },
+                        new
+                        {
+                            Id = 65,
+                            AppRoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            MenuId = 1
+                        },
+                        new
+                        {
+                            Id = 66,
+                            AppRoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            MenuId = 2
+                        },
+                        new
+                        {
+                            Id = 67,
+                            AppRoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            MenuId = 3
+                        },
+                        new
+                        {
+                            Id = 68,
+                            AppRoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            MenuId = 4
+                        },
+                        new
+                        {
+                            Id = 69,
+                            AppRoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            MenuId = 5
+                        },
+                        new
+                        {
+                            Id = 70,
+                            AppRoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            MenuId = 6
+                        },
+                        new
+                        {
+                            Id = 71,
+                            AppRoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f",
+                            MenuId = 7
+                        },
+                        new
+                        {
+                            Id = 76,
+                            AppRoleId = "d324de18-2453-4d6c-b807-85d090c8bec5",
+                            MenuId = 1
+                        },
+                        new
+                        {
+                            Id = 77,
+                            AppRoleId = "d324de18-2453-4d6c-b807-85d090c8bec5",
+                            MenuId = 2
+                        },
+                        new
+                        {
+                            Id = 78,
+                            AppRoleId = "d324de18-2453-4d6c-b807-85d090c8bec5",
+                            MenuId = 4
+                        });
+                });
+
+            modelBuilder.Entity("POC.Identity.Infrastructure.Entities.AspNetIdentity.ApplicationUserRole", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUserRole<string>");
+
+                    b.HasDiscriminator().HasValue("ApplicationUserRole");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "1fcdfddc-3eed-43a1-b34b-2c082c185de0",
+                            RoleId = "0a94202f-4f4d-4121-b6fd-23ef58e5f02f"
+                        },
+                        new
+                        {
+                            UserId = "a01f0f1f-3542-4950-9c3f-98064b9ca69a",
+                            RoleId = "29738c82-0148-4ab9-89fe-da5eb23ede74"
+                        },
+                        new
+                        {
+                            UserId = "cd5f6cec-60c7-461a-9825-f074c2dcd757",
+                            RoleId = "d324de18-2453-4d6c-b807-85d090c8bec5"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

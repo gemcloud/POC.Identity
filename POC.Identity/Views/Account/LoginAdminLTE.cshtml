@@ -1,0 +1,109 @@
+﻿@{ 
+    Layout = null;
+    ViewData["Title"] = "Log in"; 
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Log in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/adminlteplugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/adminlteplugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <link rel="stylesheet" href="~/adminltedist/css/adminlte.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="login-logo">
+        </div>
+        <div class="card">
+            <div class="card-body login-card-body">
+                <p class="login-box-msg">Sign in to start your session</p>
+
+                <form id="account" method="post">
+                    @*<span asp-validation-for="Input.Email" class="text-danger small"></span>*@
+                    <div class="input-group mb-3">
+                        @*<input asp-for="Input.Email" class="form-control" placeholder="email" />*@
+                        <input class="input100" type="text" name="email" id="email" placeholder="Email">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-envelope"></span>
+                            </div>
+                        </div>
+                    </div>
+                    @*<span asp-validation-for="Input.Password" class="text-danger small"></span>*@
+                    <div class="input-group mb-3">
+                        @*<input asp-for="Input.Password" class="form-control" placeholder="password" />*@
+                        <input class="input100" type="password" name="password" id="password" placeholder="Password">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="icheck-primary">
+                                <label><input type="checkbox" value="rememberme" name="rememberme" id="rememberme" class="checkbox-inline"> Remember Me</label>
+                                @*<input type="checkbox" id="remember">
+                                    <label for="remember">
+                                        Remember Me
+                                    </label>*@
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            @*<button type="submit" class="btn btn-primary btn-block" onclick="Validate()">Sign In</button>*@
+                            <input type="button" value="Login" class="login100-form-btn" onclick="Validate()">
+                        </div>
+                    </div>
+                    @*<div asp-validation-summary="All" class="text-danger small"></div>*@
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="~/adminlteplugins/jquery/jquery.min.js"></script>
+    <script src="~/adminlteplugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/adminltedist/js/adminlte.min.js"></script>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+    <script>
+
+        function Validate() {
+            var contactData = {
+                email: $('#email').val(),
+                password: $('#password').val(),
+                rememberme: $('#rememberme').is(":checked"),
+            };
+            //addAntiForgeryToken(contactData);
+        $.ajax(
+        {
+              type: "POST",
+                url: '@Url.Action("Validate", "Account")',
+                data: contactData,
+              //data: {
+              //  email: $('#email').val(),
+              //  password: $('#password').val(),
+              //  rememberme: $('#rememberme').is(":checked"),   // Add rememberme here!
+              //},
+              error: function (result) {
+                alert("There is a Problem, Try Again!");
+              },
+              success: function (result) {
+                console.log(result);
+                if (result.status == true) {
+                  window.location.href = '@Url.Action("Index", "Home")';
+                }
+                else {
+                  alert(result.message);
+                }
+              }
+            });
+        }
+    </script>
+</body>
+</html>

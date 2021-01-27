@@ -27,8 +27,36 @@ PM> Add-Migration AddLinkRolesMenu -Context PocApplicationDbContext
 
 
 ## 6. Add Seed
+	To add class "ModelBuilderSeedDataExtensions.cs"
+	To add entity "ApplicationUserRole : IdentityUserRole<string> "
 
-## 7. Jwt Token
+	PM> Add-Migration AddSeed -Context PocApplicationDbContext
+	PM> Update-Database -Context PocApplicationDbContext -verbose
+	if there are some issue, remove them.
+	PM> Remove-Migration 
 
-## 6. Login In
-## 7. active
+## Remove all of Migration and Dataabase. Redo.
+PM> Add-Migration CreateMigrationInit -Context PocApplicationDbContext
+PM> Update-Database -Context PocApplicationDbContext -verbose
+Worked!
+
+## 7. Login In
+
+Login :  Pass@1234
+manager@gmail.com / P@ssw0rd
+				Dashboad 
+						Admins | Create Admins
+						Admins | Manage Admins
+						Roles  | Create Role
+						Roles  | Manage Role
+Supervisor@gmail.com  / P@ssw0rd 
+				Dashboad 
+						Admins | Manage Admins
+						Roles  | Create Role
+						Roles  | Manage Role
+Developer@gmail.com / P@ssw0rd  
+				Dashboad 
+					  Admins | Manage Admins
+
+## 8. Add Dashboard shown menu
+

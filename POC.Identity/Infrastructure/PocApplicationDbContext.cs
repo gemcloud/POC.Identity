@@ -1,13 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using POC.Identity.Infrastructure.Entities;
 using POC.Identity.Infrastructure.Entities.AspNetIdentity;
 using POC.Identity.Infrastructure.EntityConfigurations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using POC.Identity.Infrastructure.Seed;
 
 namespace POC.Identity.Infrastructure
 {
@@ -18,8 +14,6 @@ namespace POC.Identity.Infrastructure
         public PocApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
-
-
 
         #region Add Entities
         public virtual DbSet<DashboardMenu> DashboardMenus { get; set; }
@@ -53,9 +47,11 @@ namespace POC.Identity.Infrastructure
 
             //modelBuilder.Entity<Category>().ToTable("Category");
             //modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+
             //----------------------------------------------------------------------------
             //Add Seed.
-            //modelBuilder.Seed();
+            modelBuilder.Seed();
         }
+
     }
 }
