@@ -38,7 +38,7 @@
                         <img src="~/images/avatar-01.jpg" alt="AVATAR">
                     </div>
                     <span class="login100-form-title p-t-20 p-b-45">
-                       Welcome Gem POC
+                        Welcome Gem POC
                     </span>
                     <div class="wrap-input100 validate-input m-b-10" data-validate="Email is required">
                         <input class="input100" type="text" name="email" id="email" placeholder="Email">
@@ -63,6 +63,13 @@
                         <input type="button" value="Login" class="login100-form-btn" onclick="Validate()">
                     </div>
                 </form>
+
+                <h4>Practise JavaScript</h4>
+                <label>Ajax XHR XmlHttpRequest</label>
+                <input type="text" name="InputText" id="txtFirst" />
+
+                <input type="button" name="InputButton" id="btnAjax" />
+
             </div>
         </div>
     </div>
@@ -86,30 +93,37 @@
                 rememberme: $('#rememberme').is(":checked"),
             };
             //addAntiForgeryToken(contactData);
-        $.ajax(
-        {
-              type: "POST",
-                url: '@Url.Action("Validate", "Account")',
-                data: contactData,
-              //data: {
-              //  email: $('#email').val(),
-              //  password: $('#password').val(),
-              //  rememberme: $('#rememberme').is(":checked"),   // Add rememberme here! 
-              //},
-              error: function (result) {
-                alert("There is a Problem, Try Again!");
-              },
-              success: function (result) {
-                console.log(result);
-                if (result.status == true) {
-                  window.location.href = '@Url.Action("Index", "Home")';
-                }
-                else {
-                  alert(result.message);
-                }
-              }
-            });
+            $.ajax(
+            {
+                  type: "POST",
+                    url: '@Url.Action("Validate", "Account")',
+                    data: contactData,
+                  //data: {
+                  //  email: $('#email').val(),
+                  //  password: $('#password').val(),
+                  //  rememberme: $('#rememberme').is(":checked"),   // Add rememberme here! 
+                  //},
+                  error: function (result) {
+                    alert("There is a Problem, Try Again!");
+                  },
+                  success: function (result) {
+                    console.log(result);
+                    if (result.status == true) {
+                      window.location.href = '@Url.Action("Index", "Home")';
+                    }
+                    else {
+                      alert(result.message);
+                    }
+                  }
+                });
         }
+    </script>
+
+    <script>
+        function demoAjax() {
+            $.ajax()
+        }
+
     </script>
 
 </body>

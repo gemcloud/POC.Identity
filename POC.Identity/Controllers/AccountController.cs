@@ -44,7 +44,22 @@ namespace POC.Identity.Controllers
             return RedirectToAction("Login", "Account");
         }
 
-        // ajax call         
+        // JSON Ajax Call
+        [HttpPost]
+        public ActionResult JsonAjax([FromBody] LoginVM model)
+        {
+            if (model != null)
+            {
+                return Json("Success");
+            }
+            else
+            {
+                return Json("An Error Has occoured");
+            }
+        }
+
+        // ajax call  
+        [HttpPost]
         public async Task<ActionResult> Validate(LoginVM model)
         {
 

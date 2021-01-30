@@ -64,6 +64,14 @@
             </div>
         </div>
     </div>
+    <div>
+        <h4>Practise JavaScript</h4>
+        <label>Ajax XHR XmlHttpRequest</label>
+        <input type="text" name="InputText" id="txtFirst" />
+
+        <input type="button" name="InputButton" id="btnAjax" value="Ajax Call Json" onclick="ajaxCallJson()"/>
+
+    </div>
     <script src="~/adminlteplugins/jquery/jquery.min.js"></script>
     <script src="~/adminlteplugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/adminltedist/js/adminlte.min.js"></script>
@@ -104,6 +112,39 @@
               }
             });
         }
+    </script>
+
+    <script defer>
+        function ajaxCallJson() {
+            var objectData = {"username": 'scott', "lastname": 'tiger'};
+            var arrrtObjec = [];
+
+            $.ajax(
+            {
+                    url: '',
+                    type: 'POST', // 'GET'
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                    data: JSON.stringfy(objectData),
+
+                    error: function (result) {
+                        alert(result);
+                    },
+
+                    success: function (result) {
+                        if (result.staus == true) {
+                            // do something
+                        }
+                        else {
+                            // 
+                            alert("Ajax Call failed!");
+                        }
+                    }
+            })
+
+        }
+
+
     </script>
 </body>
 </html>

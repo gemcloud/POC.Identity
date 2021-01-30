@@ -8,16 +8,13 @@ using System.Threading.Tasks;
 
 namespace POC.Identity.Controllers
 {
-    public class PocController : Controller
+    public class PocWebApiController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult GetJsonObject([FromBody] JsonUserInfo jsonUserInfo, [FromServices] IUserInfoService userInfoService )
-        {
-            return View();
-        }
+
     }
 }
