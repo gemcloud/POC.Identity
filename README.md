@@ -16,4 +16,4 @@
       to Poc MVC, submit, Ajax ==> Controller ==> view 
       to Poc Session etc.
       
-## 6. POC OData + Swagger + Jwt WebApi.
+## 6. POC OData V7.5.5 + Swagger V5.6.3 + Jwt WebApi.
