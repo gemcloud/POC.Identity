@@ -15,3 +15,5 @@
 ## 5. Create a Login Dashboard to Poc MVC data connection.
       to Poc MVC, submit, Ajax ==> Controller ==> view 
       to Poc Session etc.
+      
+## 6. POC OData + Swagger + Jwt WebApi.
