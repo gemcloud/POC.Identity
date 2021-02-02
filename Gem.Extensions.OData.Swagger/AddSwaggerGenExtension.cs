@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System.Collections.Generic;
@@ -55,6 +56,19 @@ namespace Gem.Extensions.OData.Swagger
                     Version = "v1"
                 });
             });
+        }
+
+        public static IApplicationBuilder UseSwaggerDocumentation(this IApplicationBuilder app, string name, string url = "/swagger/v1/swagger.json")
+        {
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                //c.SwaggerEndpoint("/swagger/v1/swagger.json", "GemCloud POC API V1.0 ");
+                c.SwaggerEndpoint(url, name);
+            });
+
+            return app;
         }
 
     }

@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Options;
 using Poc.OData.WebApi.Jwt;
 using Poc.OData.WebApi.MediatR.Commands.Models.Common;
 using System.Threading;
@@ -10,12 +11,19 @@ namespace Poc.OData.WebApi.MediatR.Commands.Handlers.Common
     {
         private readonly ApiConfig _apiConfig;
 
-        public GenerateJwtTokenCommandHandler() { }
+        #region Ctor
+        //public GenerateJwtTokenCommandHandler(ApiConfig apiConfigr)
+        //{
+        //    _apiConfig = apiConfig;
+        //}
 
-        public GenerateJwtTokenCommandHandler(ApiConfig apiConfig)
+        public GenerateJwtTokenCommandHandler(IOptions<ApiConfig> apiConfig)
         {
-            _apiConfig = apiConfig;
+            _apiConfig = apiConfig.Value;
         }
+
+        #endregion
+
         public async Task<string> Handle(GenerateJwtTokenCommand request, CancellationToken cancellationToken)
         {
             var token = new JwtTokenBuilder();

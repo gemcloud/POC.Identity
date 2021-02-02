@@ -32,7 +32,8 @@ namespace Poc.OData.WebApi.Controllers
             claims.Add("Email", model.Email);
 
             var token = await _mediator.Send(new GenerateJwtTokenCommand() { Claims = claims });
-            return Content(token);
+            //return Content(token);
+            return Ok(new { TokenDemo = token });
         }
     }
 }

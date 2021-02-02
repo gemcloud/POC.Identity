@@ -1,10 +1,12 @@
 ﻿## OData + Swagger + Endpoint routing + Net Core 3.1
 
-## install Swashbuckle
+Posted at https://stackoverflow.com/questions/62404125/how-to-add-swagger-in-odata-enabled-web-api-running-on-asp-net-core-3-1/65973664#65973664 too.
+
+## install Swashbuckle V5.6.3
     1. Swashbuckle.AspNetCore
     2. Swashbuckle.AspNetCore.Annotations
 
-## install OData
+## install OData V7.5.5
     1. Microsoft.AspNetCore.OData
     2. Microsoft.AspNetCore.OData.Versioning
     (Not must)3. OData.Swagger
