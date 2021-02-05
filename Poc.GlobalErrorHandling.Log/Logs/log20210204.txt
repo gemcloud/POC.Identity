@@ -1,0 +1,1195 @@
+2021-02-04 16:56:44.065 -08:00 [INF] Starting web host
+2021-02-04 16:56:44.080 -08:00 [ERR] Test Log.Error
+2021-02-04 16:56:44.667 -08:00 [INF] HTTP GET /swagger responded 301 in 31.3397 ms
+2021-02-04 16:56:44.729 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 45.3569 ms
+2021-02-04 16:56:44.799 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 45.5894 ms
+2021-02-04 16:56:44.799 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 45.5894 ms
+2021-02-04 16:56:44.799 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 45.5893 ms
+2021-02-04 16:56:44.978 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.5767 ms
+2021-02-04 16:56:45.077 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.2987 ms
+2021-02-04 16:56:45.190 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 66.4790 ms
+2021-02-04 16:56:54.373 -08:00 [INF] called weather forecast
+2021-02-04 16:56:54.382 -08:00 [INF] HTTP GET /WeatherForecast responded 200 in 4988.5301 ms
+2021-02-04 19:19:59.309 -08:00 [INF] Starting web host
+2021-02-04 19:19:59.326 -08:00 [ERR] Test Log.Error
+2021-02-04 19:19:59.842 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 19:19:59.843 -08:00 [INF] Hosting environment: Development
+2021-02-04 19:19:59.844 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 19:19:59.855 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger  
+2021-02-04 19:19:59.885 -08:00 [INF] HTTP GET /swagger responded 301 in 25.2240 ms
+2021-02-04 19:19:59.899 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/index.html  
+2021-02-04 19:19:59.914 -08:00 [INF] Request finished in 60.3172ms 301 
+2021-02-04 19:19:59.944 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 44.3003 ms
+2021-02-04 19:19:59.945 -08:00 [INF] Request finished in 45.3692ms 200 text/html;charset=utf-8
+2021-02-04 19:19:59.961 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-bundle.js  
+2021-02-04 19:19:59.961 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui.css  
+2021-02-04 19:19:59.962 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 19:20:00.004 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 19:20:00.004 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 19:20:00.004 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 19:20:00.007 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 45.1848 ms
+2021-02-04 19:20:00.007 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 45.3653 ms
+2021-02-04 19:20:00.007 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 45.3651 ms
+2021-02-04 19:20:00.007 -08:00 [INF] Request finished in 45.6853ms 200 application/javascript
+2021-02-04 19:20:00.007 -08:00 [INF] Request finished in 45.9359ms 200 text/css
+2021-02-04 19:20:00.007 -08:00 [INF] Request finished in 45.9326ms 200 application/javascript
+2021-02-04 19:20:00.196 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-bundle.js.map  
+2021-02-04 19:20:00.197 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.6924 ms
+2021-02-04 19:20:00.198 -08:00 [INF] Request finished in 2.4166ms 404 
+2021-02-04 19:20:00.290 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 19:20:00.290 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.3189 ms
+2021-02-04 19:20:00.291 -08:00 [INF] Request finished in 0.8074ms 404 
+2021-02-04 19:20:00.340 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/v1/swagger.json  
+2021-02-04 19:20:00.402 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 61.9677 ms
+2021-02-04 19:20:00.402 -08:00 [INF] Request finished in 62.374ms 200 application/json;charset=utf-8
+2021-02-04 19:20:05.742 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast  
+2021-02-04 19:20:05.748 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 19:20:05.769 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Poc.GlobalErrorHandling.Serilog.WeatherForecast] Get() on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 19:20:05.770 -08:00 [INF] called weather forecast
+2021-02-04 19:20:05.773 -08:00 [INF] Executing ObjectResult, writing value of type 'Poc.GlobalErrorHandling.Serilog.WeatherForecast[]'.
+2021-02-04 19:20:05.781 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 8.0791ms
+2021-02-04 19:20:05.782 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 19:20:05.782 -08:00 [INF] HTTP GET /WeatherForecast responded 200 in 38.7563 ms
+2021-02-04 19:20:05.782 -08:00 [INF] Request finished in 41.7425ms 200 application/json; charset=utf-8
+2021-02-04 19:22:21.117 -08:00 [INF] Starting web host
+2021-02-04 19:22:21.136 -08:00 [ERR] Test Log.Error
+2021-02-04 19:22:21.868 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 19:22:21.891 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 19:22:21.892 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 19:22:21.894 -08:00 [INF] Hosting environment: Development
+2021-02-04 19:22:21.894 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 19:22:23.858 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 19:22:23.891 -08:00 [INF] HTTP GET /swagger responded 301 in 27.9172 ms
+2021-02-04 19:22:23.897 -08:00 [INF] Request finished in 40.663ms 301 
+2021-02-04 19:22:23.905 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 19:22:23.926 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 19.8101 ms
+2021-02-04 19:22:23.929 -08:00 [INF] Request finished in 23.3293ms 200 text/html;charset=utf-8
+2021-02-04 19:22:23.950 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 19:22:23.952 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 19:22:23.952 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 19:22:24.012 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 19:22:24.012 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 19:22:24.012 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 19:22:24.015 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 63.9715 ms
+2021-02-04 19:22:24.015 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 61.8677 ms
+2021-02-04 19:22:24.015 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 59.9436 ms
+2021-02-04 19:22:24.017 -08:00 [INF] Request finished in 67.338ms 200 text/css
+2021-02-04 19:22:24.017 -08:00 [INF] Request finished in 65.028ms 200 application/javascript
+2021-02-04 19:22:24.018 -08:00 [INF] Request finished in 66.1042ms 200 application/javascript
+2021-02-04 19:22:24.184 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 19:22:24.185 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.2516 ms
+2021-02-04 19:22:24.192 -08:00 [INF] Request finished in 7.6323ms 404 
+2021-02-04 19:22:24.199 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 19:22:24.200 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.1353 ms
+2021-02-04 19:22:24.201 -08:00 [INF] Request finished in 1.8459ms 404 
+2021-02-04 19:22:24.277 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 19:22:24.277 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.0990 ms
+2021-02-04 19:22:24.279 -08:00 [INF] Request finished in 2.318ms 404 
+2021-02-04 19:22:24.285 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 19:22:24.286 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.0982 ms
+2021-02-04 19:22:24.287 -08:00 [INF] Request finished in 1.8843ms 404 
+2021-02-04 19:22:24.344 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 19:22:24.406 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 61.7504 ms
+2021-02-04 19:22:24.408 -08:00 [INF] Request finished in 64.8162ms 200 application/json;charset=utf-8
+2021-02-04 19:22:29.517 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast  
+2021-02-04 19:22:29.522 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 19:22:29.549 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Poc.GlobalErrorHandling.Serilog.WeatherForecast] Get() on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 19:22:29.552 -08:00 [INF] called weather forecast
+2021-02-04 19:22:29.556 -08:00 [INF] Executing ObjectResult, writing value of type 'Poc.GlobalErrorHandling.Serilog.WeatherForecast[]'.
+2021-02-04 19:22:29.565 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 11.1437ms
+2021-02-04 19:22:29.566 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 19:22:29.567 -08:00 [INF] HTTP GET /WeatherForecast responded 200 in 48.9193 ms
+2021-02-04 19:22:29.568 -08:00 [INF] Request finished in 51.3636ms 200 application/json; charset=utf-8
+2021-02-04 19:22:30.698 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast  
+2021-02-04 19:22:30.700 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 19:22:30.702 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Poc.GlobalErrorHandling.Serilog.WeatherForecast] Get() on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 19:22:30.704 -08:00 [INF] called weather forecast
+2021-02-04 19:22:30.705 -08:00 [INF] Executing ObjectResult, writing value of type 'Poc.GlobalErrorHandling.Serilog.WeatherForecast[]'.
+2021-02-04 19:22:30.706 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 2.1466ms
+2021-02-04 19:22:30.708 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 19:22:30.709 -08:00 [INF] HTTP GET /WeatherForecast responded 200 in 8.8230 ms
+2021-02-04 19:22:30.710 -08:00 [INF] Request finished in 12.3438ms 200 application/json; charset=utf-8
+2021-02-04 19:37:04.887 -08:00 [INF] Starting web host
+2021-02-04 19:37:05.387 -08:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 19:37:05.651 -08:00 [FTL] Host terminated unexpectedly
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 47
+2021-02-04 19:37:46.010 -08:00 [INF] Starting web host
+2021-02-04 19:37:46.569 -08:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 19:37:46.641 -08:00 [FTL] Host terminated unexpectedly
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 47
+2021-02-04 19:38:25.530 -08:00 [INF] Starting web host
+2021-02-04 19:38:25.919 -08:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 19:38:25.966 -08:00 [FTL] Host terminated unexpectedly
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 47
+2021-02-04 20:18:26.455 -08:00 [INF] Starting web host
+2021-02-04 20:18:27.012 -08:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 20:18:27.093 -08:00 [FTL] Host terminated unexpectedly
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 48
+2021-02-04 20:26:45.809 -08:00 [INF] Starting web host
+2021-02-04 20:26:46.439 -08:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 20:26:46.487 -08:00 [FTL] Host terminated unexpectedly
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'seriLogger' of method 'Configure' on type 'Poc.GlobalErrorHandling.Serilog.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 48
+2021-02-04 20:28:14.778 -08:00 [INF] Starting web host
+2021-02-04 20:28:15.537 -08:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 20:28:15.602 -08:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 48
+2021-02-04 20:28:49.986 -08:00 [INF] Starting web host
+2021-02-04 20:28:50.699 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:28:50.703 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:28:50.704 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:28:50.705 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:28:50.705 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:28:53.214 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:28:53.250 -08:00 [INF] HTTP GET /swagger responded 301 in 30.2180 ms
+2021-02-04 20:28:53.255 -08:00 [INF] Request finished in 44.1179ms 301 
+2021-02-04 20:28:53.265 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:28:53.287 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 20.9300 ms
+2021-02-04 20:28:53.291 -08:00 [INF] Request finished in 25.3942ms 200 text/html;charset=utf-8
+2021-02-04 20:28:53.315 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:28:53.317 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:28:53.317 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:28:53.346 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:28:53.346 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:28:53.348 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 32.1716 ms
+2021-02-04 20:28:53.350 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 31.0196 ms
+2021-02-04 20:28:53.385 -08:00 [INF] Request finished in 70.2464ms 200 text/css
+2021-02-04 20:28:53.393 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:28:53.394 -08:00 [INF] Request finished in 76.6114ms 200 application/javascript
+2021-02-04 20:28:53.395 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 76.9756 ms
+2021-02-04 20:28:53.397 -08:00 [INF] Request finished in 80.4982ms 200 application/javascript
+2021-02-04 20:28:53.506 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:28:53.508 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.2267 ms
+2021-02-04 20:28:53.515 -08:00 [INF] Request finished in 8.6533ms 404 
+2021-02-04 20:28:53.522 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:28:53.523 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.1169 ms
+2021-02-04 20:28:53.525 -08:00 [INF] Request finished in 3.2026ms 404 
+2021-02-04 20:28:53.608 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:28:53.609 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.1167 ms
+2021-02-04 20:28:53.610 -08:00 [INF] Request finished in 2.6671ms 404 
+2021-02-04 20:28:53.614 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:28:53.614 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.0880 ms
+2021-02-04 20:28:53.616 -08:00 [INF] Request finished in 2.0153ms 404 
+2021-02-04 20:28:53.671 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:28:53.740 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 67.3457 ms
+2021-02-04 20:28:53.742 -08:00 [INF] Request finished in 71.2151ms 200 application/json;charset=utf-8
+2021-02-04 20:33:13.185 -08:00 [INF] Starting web host
+2021-02-04 20:33:13.809 -08:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 20:33:13.861 -08:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 48
+2021-02-04 20:33:24.021 -08:00 [INF] Starting web host
+2021-02-04 20:33:24.615 -08:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 20:33:24.672 -08:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Poc.GlobalErrorHandling.Serilog.Program.Main(String[] args) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Program.cs:line 48
+2021-02-04 20:33:54.986 -08:00 [INF] Starting web host
+2021-02-04 20:33:55.601 -08:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-04 20:38:00.816 -08:00 [INF] Starting web host
+2021-02-04 20:38:01.803 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:38:01.806 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:38:01.807 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:38:01.808 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:38:01.808 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:38:03.780 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:38:03.814 -08:00 [INF] HTTP GET /swagger responded 301 in 29.2004 ms
+2021-02-04 20:38:03.820 -08:00 [INF] Request finished in 41.6448ms 301 
+2021-02-04 20:38:03.832 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:38:03.854 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 21.9900 ms
+2021-02-04 20:38:03.859 -08:00 [INF] Request finished in 27.5578ms 200 text/html;charset=utf-8
+2021-02-04 20:38:03.879 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:38:03.885 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:38:03.885 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:38:03.927 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:38:03.927 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:38:03.927 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:38:03.930 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 40.1080 ms
+2021-02-04 20:38:03.930 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 50.0946 ms
+2021-02-04 20:38:03.931 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 38.7105 ms
+2021-02-04 20:38:03.933 -08:00 [INF] Request finished in 50.0589ms 200 application/javascript
+2021-02-04 20:38:03.933 -08:00 [INF] Request finished in 54.6058ms 200 text/css
+2021-02-04 20:38:03.935 -08:00 [INF] Request finished in 51.9017ms 200 application/javascript
+2021-02-04 20:38:04.058 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:38:04.059 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.2892 ms
+2021-02-04 20:38:04.066 -08:00 [INF] Request finished in 8.0975ms 404 
+2021-02-04 20:38:04.074 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:38:04.074 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.1077 ms
+2021-02-04 20:38:04.076 -08:00 [INF] Request finished in 2.2336ms 404 
+2021-02-04 20:38:04.157 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:38:04.157 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.1082 ms
+2021-02-04 20:38:04.159 -08:00 [INF] Request finished in 2.1036ms 404 
+2021-02-04 20:38:04.162 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:38:04.163 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.0947 ms
+2021-02-04 20:38:04.164 -08:00 [INF] Request finished in 1.9317ms 404 
+2021-02-04 20:38:04.215 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:38:04.280 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 64.3914 ms
+2021-02-04 20:38:04.282 -08:00 [INF] Request finished in 67.3338ms 200 application/json;charset=utf-8
+2021-02-04 20:38:19.178 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast  
+2021-02-04 20:38:19.184 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 20:38:19.203 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Poc.GlobalErrorHandling.Serilog.WeatherForecast] Get() on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 20:38:20.967 -08:00 [INF] called weather forecast
+2021-02-04 20:38:23.436 -08:00 [INF] Executing ObjectResult, writing value of type 'Poc.GlobalErrorHandling.Serilog.WeatherForecast[]'.
+2021-02-04 20:38:23.445 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 4236.2409ms
+2021-02-04 20:38:23.449 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 20:38:23.450 -08:00 [INF] HTTP GET /WeatherForecast responded 200 in 4269.7299 ms
+2021-02-04 20:38:23.452 -08:00 [INF] Request finished in 4273.8997ms 200 application/json; charset=utf-8
+2021-02-04 20:40:21.694 -08:00 [INF] Starting web host
+2021-02-04 20:40:22.324 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:40:22.327 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:40:22.328 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:40:22.328 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:40:22.329 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:40:24.137 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:40:24.182 -08:00 [INF] HTTP GET /swagger responded 301 in 33.1130 ms
+2021-02-04 20:40:24.188 -08:00 [INF] Request finished in 57.5379ms 301 
+2021-02-04 20:40:24.196 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:40:24.218 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 21.5537 ms
+2021-02-04 20:40:24.223 -08:00 [INF] Request finished in 26.7019ms 200 text/html;charset=utf-8
+2021-02-04 20:40:24.250 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:40:24.250 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:40:24.250 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:40:24.288 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:40:24.288 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:40:24.290 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 39.0539 ms
+2021-02-04 20:40:24.291 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 39.2590 ms
+2021-02-04 20:40:24.299 -08:00 [INF] Request finished in 49.1068ms 200 text/css
+2021-02-04 20:40:24.301 -08:00 [INF] Request finished in 50.7887ms 200 application/javascript
+2021-02-04 20:40:24.306 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:40:24.308 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 56.7522 ms
+2021-02-04 20:40:24.312 -08:00 [INF] Request finished in 62.7478ms 200 application/javascript
+2021-02-04 20:40:24.468 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:40:24.469 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.4366 ms
+2021-02-04 20:40:24.476 -08:00 [INF] Request finished in 8.512ms 404 
+2021-02-04 20:40:24.484 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:40:24.485 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.0888 ms
+2021-02-04 20:40:24.486 -08:00 [INF] Request finished in 2.0757ms 404 
+2021-02-04 20:40:24.573 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:40:24.574 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.1160 ms
+2021-02-04 20:40:24.578 -08:00 [INF] Request finished in 4.5602ms 404 
+2021-02-04 20:40:24.581 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:40:24.582 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.0964 ms
+2021-02-04 20:40:24.583 -08:00 [INF] Request finished in 2.0258ms 404 
+2021-02-04 20:40:24.631 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:40:24.657 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2021-02-04 20:40:24.658 -08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-02-04 20:40:24.663 -08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 4.8671 ms
+2021-02-04 20:40:24.665 -08:00 [INF] Request finished in 8.1199ms 200 image/png
+2021-02-04 20:40:24.703 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 71.0719 ms
+2021-02-04 20:40:24.706 -08:00 [INF] Request finished in 75.1195ms 200 application/json;charset=utf-8
+2021-02-04 20:40:31.024 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/123  
+2021-02-04 20:40:31.160 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 20:40:31.293 -08:00 [ERR] HTTP GET /WeatherForecast/123 responded 500 in 261.0937 ms
+2021-02-04 20:40:31.295 -08:00 [INF] Request finished in 272.2246ms 500 application/json
+2021-02-04 20:42:55.997 -08:00 [INF] Starting web host
+2021-02-04 20:42:59.505 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:42:59.508 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:42:59.508 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:42:59.509 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:42:59.509 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:43:01.157 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:43:01.196 -08:00 [INF] HTTP GET /swagger responded 301 in 31.8628 ms
+2021-02-04 20:43:01.203 -08:00 [INF] Request finished in 48.7519ms 301 
+2021-02-04 20:43:01.211 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:43:01.238 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 26.0187 ms
+2021-02-04 20:43:01.239 -08:00 [INF] Request finished in 28.6784ms 200 text/html;charset=utf-8
+2021-02-04 20:43:01.267 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:43:01.267 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:43:01.267 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:43:01.326 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:43:01.326 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:43:01.326 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:43:01.329 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 61.5000 ms
+2021-02-04 20:43:01.329 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 60.8026 ms
+2021-02-04 20:43:01.330 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 60.8191 ms
+2021-02-04 20:43:01.333 -08:00 [INF] Request finished in 65.9218ms 200 text/css
+2021-02-04 20:43:01.333 -08:00 [INF] Request finished in 66.1822ms 200 application/javascript
+2021-02-04 20:43:01.335 -08:00 [INF] Request finished in 67.6146ms 200 application/javascript
+2021-02-04 20:43:01.461 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:43:01.462 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.2550 ms
+2021-02-04 20:43:01.470 -08:00 [INF] Request finished in 9.4083ms 404 
+2021-02-04 20:43:01.477 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:43:01.478 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.0930 ms
+2021-02-04 20:43:01.479 -08:00 [INF] Request finished in 1.7788ms 404 
+2021-02-04 20:43:01.558 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:43:01.559 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.0915 ms
+2021-02-04 20:43:01.564 -08:00 [INF] Request finished in 5.8467ms 404 
+2021-02-04 20:43:01.567 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:43:01.568 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.0829 ms
+2021-02-04 20:43:01.569 -08:00 [INF] Request finished in 2.1101ms 404 
+2021-02-04 20:43:01.615 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:43:01.681 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 65.0201 ms
+2021-02-04 20:43:01.684 -08:00 [INF] Request finished in 68.5665ms 200 application/json;charset=utf-8
+2021-02-04 20:43:07.040 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/123  
+2021-02-04 20:43:07.101 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 20:43:38.743 -08:00 [ERR] HTTP GET /WeatherForecast/123 responded 500 in 25122.4000 ms
+2021-02-04 20:43:40.247 -08:00 [INF] Request finished in 33206.7798ms 500 application/json
+2021-02-04 20:43:47.849 -08:00 [INF] Application is shutting down...
+2021-02-04 20:44:52.483 -08:00 [INF] Starting web host
+2021-02-04 20:44:55.153 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:44:55.157 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:44:55.157 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:44:55.158 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:44:55.159 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:44:57.298 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:44:57.335 -08:00 [INF] Request finished in 39.2259ms 301 
+2021-02-04 20:44:57.345 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:44:57.368 -08:00 [INF] Request finished in 22.3728ms 200 text/html;charset=utf-8
+2021-02-04 20:44:57.394 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:44:57.394 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:44:57.395 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:44:57.429 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:44:57.429 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:44:57.429 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:44:57.433 -08:00 [INF] Request finished in 38.9494ms 200 text/css
+2021-02-04 20:44:57.433 -08:00 [INF] Request finished in 38.9122ms 200 application/javascript
+2021-02-04 20:44:57.434 -08:00 [INF] Request finished in 39.0637ms 200 application/javascript
+2021-02-04 20:44:57.589 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:44:57.597 -08:00 [INF] Request finished in 7.829ms 404 
+2021-02-04 20:44:57.605 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:44:57.606 -08:00 [INF] Request finished in 0.9839ms 404 
+2021-02-04 20:44:57.687 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:44:57.688 -08:00 [INF] Request finished in 1.2865ms 404 
+2021-02-04 20:44:57.695 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:44:57.696 -08:00 [INF] Request finished in 0.9926ms 404 
+2021-02-04 20:44:57.746 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:44:57.808 -08:00 [INF] Request finished in 62.0612ms 200 application/json;charset=utf-8
+2021-02-04 20:45:03.511 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/123  
+2021-02-04 20:45:03.572 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 20:45:05.496 -08:00 [INF] Request finished in 1985.4172ms 500 application/json
+2021-02-04 20:46:08.755 -08:00 [INF] Starting web host
+2021-02-04 20:46:25.879 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:46:25.881 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:46:25.882 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:46:25.882 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:46:25.883 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:46:27.594 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:46:27.630 -08:00 [INF] Request finished in 39.0301ms 301 
+2021-02-04 20:46:27.638 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:46:27.662 -08:00 [INF] Request finished in 23.2752ms 200 text/html;charset=utf-8
+2021-02-04 20:46:27.687 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:46:27.688 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:46:27.687 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:46:27.719 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:46:27.723 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:46:27.728 -08:00 [INF] Request finished in 39.9339ms 200 text/css
+2021-02-04 20:46:27.744 -08:00 [INF] Request finished in 56.7641ms 200 application/javascript
+2021-02-04 20:46:27.746 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:46:27.749 -08:00 [INF] Request finished in 61.5947ms 200 application/javascript
+2021-02-04 20:46:27.865 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:46:27.873 -08:00 [INF] Request finished in 7.3132ms 404 
+2021-02-04 20:46:27.880 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:46:27.880 -08:00 [INF] Request finished in 0.7219ms 404 
+2021-02-04 20:46:27.957 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:46:27.958 -08:00 [INF] Request finished in 1.137ms 404 
+2021-02-04 20:46:27.960 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:46:27.961 -08:00 [INF] Request finished in 0.6798ms 404 
+2021-02-04 20:46:28.008 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:46:28.070 -08:00 [INF] Request finished in 62.8004ms 200 application/json;charset=utf-8
+2021-02-04 20:46:34.030 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/123  
+2021-02-04 20:46:35.999 -08:00 [INF] Request finished in 1969.3542ms 500 application/json
+2021-02-04 20:49:42.606 -08:00 [INF] Starting web host
+2021-02-04 20:49:43.251 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:49:43.254 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:49:43.255 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:49:43.255 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:49:43.256 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:49:45.338 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:49:45.376 -08:00 [INF] Request finished in 40.2839ms 301 
+2021-02-04 20:49:45.380 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:49:45.401 -08:00 [INF] Request finished in 21.6798ms 200 text/html;charset=utf-8
+2021-02-04 20:49:45.435 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:49:45.435 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:49:45.435 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:49:45.490 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:49:45.490 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:49:45.490 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:49:45.494 -08:00 [INF] Request finished in 58.9539ms 200 application/javascript
+2021-02-04 20:49:45.494 -08:00 [INF] Request finished in 58.5831ms 200 application/javascript
+2021-02-04 20:49:45.494 -08:00 [INF] Request finished in 59.4462ms 200 text/css
+2021-02-04 20:49:45.630 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:49:45.638 -08:00 [INF] Request finished in 7.828ms 404 
+2021-02-04 20:49:45.645 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:49:45.647 -08:00 [INF] Request finished in 1.5276ms 404 
+2021-02-04 20:49:45.730 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:49:45.731 -08:00 [INF] Request finished in 1.004ms 404 
+2021-02-04 20:49:45.734 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:49:45.735 -08:00 [INF] Request finished in 0.7568ms 404 
+2021-02-04 20:49:45.781 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:49:45.846 -08:00 [INF] Request finished in 65.7934ms 200 application/json;charset=utf-8
+2021-02-04 20:49:52.580 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/123  
+2021-02-04 20:49:52.639 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 20:49:52.728 -08:00 [INF] Request finished in 148.8479ms 500 application/json
+2021-02-04 20:50:02.324 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/123  
+2021-02-04 20:50:02.340 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 20:50:02.344 -08:00 [INF] Request finished in 19.7472ms 500 application/json
+2021-02-04 20:53:03.368 -08:00 [INF] Starting web host
+2021-02-04 20:53:04.316 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 20:53:04.320 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 20:53:04.321 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 20:53:04.322 -08:00 [INF] Hosting environment: Development
+2021-02-04 20:53:04.322 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 20:53:06.418 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 20:53:06.452 -08:00 [INF] Request finished in 36.0817ms 301 
+2021-02-04 20:53:06.465 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 20:53:06.486 -08:00 [INF] Request finished in 21.6356ms 200 text/html;charset=utf-8
+2021-02-04 20:53:06.515 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 20:53:06.515 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 20:53:06.516 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 20:53:06.541 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 20:53:06.541 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 20:53:06.542 -08:00 [INF] Request finished in 27.1588ms 200 text/css
+2021-02-04 20:53:06.544 -08:00 [INF] Request finished in 28.2506ms 200 application/javascript
+2021-02-04 20:53:06.547 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 20:53:06.551 -08:00 [INF] Request finished in 35.5022ms 200 application/javascript
+2021-02-04 20:53:06.677 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:53:06.684 -08:00 [INF] Request finished in 7.2128ms 404 
+2021-02-04 20:53:06.691 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 20:53:06.692 -08:00 [INF] Request finished in 1.0626ms 404 
+2021-02-04 20:53:06.771 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:53:06.773 -08:00 [INF] Request finished in 1.2837ms 404 
+2021-02-04 20:53:06.776 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 20:53:06.776 -08:00 [INF] Request finished in 0.6559ms 404 
+2021-02-04 20:53:06.823 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 20:53:06.888 -08:00 [INF] Request finished in 64.2683ms 200 application/json;charset=utf-8
+2021-02-04 20:53:12.137 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/1  
+2021-02-04 20:53:12.200 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 20:53:12.290 -08:00 [INF] Request finished in 153.2768ms 500 application/json
+2021-02-04 21:56:16.790 -08:00 [INF] Starting web host
+2021-02-04 21:56:17.427 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 21:56:17.430 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 21:56:17.431 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 21:56:17.432 -08:00 [INF] Hosting environment: Development
+2021-02-04 21:56:17.433 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 21:56:19.297 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 21:56:19.336 -08:00 [INF] Request finished in 40.9397ms 301 
+2021-02-04 21:56:19.345 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 21:56:19.368 -08:00 [INF] Request finished in 22.8642ms 200 text/html;charset=utf-8
+2021-02-04 21:56:19.385 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 21:56:19.387 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 21:56:19.387 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 21:56:19.423 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 21:56:19.423 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 21:56:19.423 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 21:56:19.427 -08:00 [INF] Request finished in 40.5896ms 200 application/javascript
+2021-02-04 21:56:19.427 -08:00 [INF] Request finished in 40.4212ms 200 application/javascript
+2021-02-04 21:56:19.427 -08:00 [INF] Request finished in 42.7767ms 200 text/css
+2021-02-04 21:56:19.553 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 21:56:19.562 -08:00 [INF] Request finished in 8.2056ms 404 
+2021-02-04 21:56:19.568 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 21:56:19.569 -08:00 [INF] Request finished in 0.7185ms 404 
+2021-02-04 21:56:19.647 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 21:56:19.648 -08:00 [INF] Request finished in 0.8137ms 404 
+2021-02-04 21:56:19.651 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 21:56:19.651 -08:00 [INF] Request finished in 0.7429ms 404 
+2021-02-04 21:56:19.704 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 21:56:19.767 -08:00 [INF] Request finished in 62.938ms 200 application/json;charset=utf-8
+2021-02-04 21:56:26.832 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/12  
+2021-02-04 21:56:26.895 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 21:56:26.984 -08:00 [INF] Request finished in 152.5762ms 500 application/json
+2021-02-04 21:58:36.501 -08:00 [INF] Starting web host
+2021-02-04 21:58:37.092 -08:00 [INF] Now listening on: https://localhost:5001
+2021-02-04 21:58:37.094 -08:00 [INF] Now listening on: http://localhost:5000
+2021-02-04 21:58:37.095 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 21:58:37.096 -08:00 [INF] Hosting environment: Development
+2021-02-04 21:58:37.097 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 21:58:38.973 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-02-04 21:58:39.009 -08:00 [INF] Request finished in 37.2335ms 301 
+2021-02-04 21:58:39.021 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-02-04 21:58:39.047 -08:00 [INF] Request finished in 25.8544ms 200 text/html;charset=utf-8
+2021-02-04 21:58:39.074 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-02-04 21:58:39.074 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-02-04 21:58:39.074 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 21:58:39.100 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 21:58:39.100 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 21:58:39.102 -08:00 [INF] Request finished in 28.326ms 200 text/css
+2021-02-04 21:58:39.107 -08:00 [INF] Request finished in 33.3455ms 200 application/javascript
+2021-02-04 21:58:39.109 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 21:58:39.113 -08:00 [INF] Request finished in 39.0801ms 200 application/javascript
+2021-02-04 21:58:39.244 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 21:58:39.252 -08:00 [INF] Request finished in 7.7324ms 404 
+2021-02-04 21:58:39.262 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-02-04 21:58:39.263 -08:00 [INF] Request finished in 1.0212ms 404 
+2021-02-04 21:58:39.340 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 21:58:39.340 -08:00 [INF] Request finished in 0.7758ms 404 
+2021-02-04 21:58:39.343 -08:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 21:58:39.344 -08:00 [INF] Request finished in 0.6728ms 404 
+2021-02-04 21:58:39.391 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-02-04 21:58:39.456 -08:00 [INF] Request finished in 64.722ms 200 application/json;charset=utf-8
+2021-02-04 21:58:49.328 -08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast/111  
+2021-02-04 21:58:49.385 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 21:58:49.478 -08:00 [INF] Request finished in 150.4567ms 500 application/json
+2021-02-04 21:59:35.058 -08:00 [INF] Starting web host
+2021-02-04 21:59:35.608 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 21:59:35.610 -08:00 [INF] Hosting environment: Development
+2021-02-04 21:59:35.611 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 21:59:35.621 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger  
+2021-02-04 21:59:35.664 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/index.html  
+2021-02-04 21:59:35.678 -08:00 [INF] Request finished in 58.6058ms 301 
+2021-02-04 21:59:35.711 -08:00 [INF] Request finished in 47.1274ms 200 text/html;charset=utf-8
+2021-02-04 21:59:35.737 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui.css  
+2021-02-04 21:59:35.737 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 21:59:35.737 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-bundle.js  
+2021-02-04 21:59:35.773 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 21:59:35.773 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 21:59:35.773 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 21:59:35.775 -08:00 [INF] Request finished in 37.4153ms 200 application/javascript
+2021-02-04 21:59:35.775 -08:00 [INF] Request finished in 37.4803ms 200 application/javascript
+2021-02-04 21:59:35.775 -08:00 [INF] Request finished in 37.483ms 200 text/css
+2021-02-04 21:59:35.896 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-bundle.js.map  
+2021-02-04 21:59:35.897 -08:00 [INF] Request finished in 0.9034ms 404 
+2021-02-04 21:59:35.980 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 21:59:35.980 -08:00 [INF] Request finished in 0.4962ms 404 
+2021-02-04 21:59:36.028 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/v1/swagger.json  
+2021-02-04 21:59:36.048 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/favicon-32x32.png  
+2021-02-04 21:59:36.049 -08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-02-04 21:59:36.049 -08:00 [INF] Request finished in 1.4325ms 200 image/png
+2021-02-04 21:59:36.091 -08:00 [INF] Request finished in 63.1189ms 200 application/json;charset=utf-8
+2021-02-04 21:59:43.893 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/12312  
+2021-02-04 21:59:43.958 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 21:59:44.044 -08:00 [INF] Request finished in 151.0505ms 500 application/json
+2021-02-04 22:00:05.558 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/222  
+2021-02-04 22:00:05.574 -08:00 [ERR] Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:00:05.575 -08:00 [INF] Request finished in 16.7251ms 500 application/json
+2021-02-04 22:00:11.693 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast  
+2021-02-04 22:00:11.699 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:00:11.717 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Poc.GlobalErrorHandling.Serilog.WeatherForecast] Get() on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:00:13.794 -08:00 [INF] called weather forecast
+2021-02-04 22:00:13.799 -08:00 [INF] Executing ObjectResult, writing value of type 'Poc.GlobalErrorHandling.Serilog.WeatherForecast[]'.
+2021-02-04 22:00:13.807 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 2086.3491ms
+2021-02-04 22:00:13.808 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:00:13.808 -08:00 [INF] Request finished in 2115.528ms 200 application/json; charset=utf-8
+2021-02-04 22:06:17.208 -08:00 [INF] Starting web host
+2021-02-04 22:06:39.805 -08:00 [INF] Starting web host
+2021-02-04 22:06:40.353 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 22:06:40.356 -08:00 [INF] Hosting environment: Development
+2021-02-04 22:06:40.356 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 22:06:40.367 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger  
+2021-02-04 22:06:40.409 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/index.html  
+2021-02-04 22:06:40.423 -08:00 [INF] Request finished in 57.6423ms 301 
+2021-02-04 22:06:40.455 -08:00 [INF] Request finished in 45.9814ms 200 text/html;charset=utf-8
+2021-02-04 22:06:40.473 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-bundle.js  
+2021-02-04 22:06:40.473 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui.css  
+2021-02-04 22:06:40.473 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 22:06:40.515 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 22:06:40.515 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 22:06:40.515 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 22:06:40.516 -08:00 [INF] Request finished in 43.3819ms 200 text/css
+2021-02-04 22:06:40.516 -08:00 [INF] Request finished in 43.3867ms 200 application/javascript
+2021-02-04 22:06:40.516 -08:00 [INF] Request finished in 43.3289ms 200 application/javascript
+2021-02-04 22:06:40.635 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-bundle.js.map  
+2021-02-04 22:06:40.636 -08:00 [INF] Request finished in 0.9421ms 404 
+2021-02-04 22:06:40.721 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 22:06:40.721 -08:00 [INF] Request finished in 0.5157ms 404 
+2021-02-04 22:06:40.770 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/v1/swagger.json  
+2021-02-04 22:06:40.833 -08:00 [INF] Request finished in 63.7654ms 200 application/json;charset=utf-8
+2021-02-04 22:07:05.194 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/111/345  
+2021-02-04 22:07:05.199 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:07:05.225 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:07:32.446 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 27214.4269ms
+2021-02-04 22:07:32.448 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:07:32.517 -08:00 [ERR] Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(String middleware, Int32 userId) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 69
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:07:32.604 -08:00 [INF] Request finished in 27410.3898ms 500 application/json
+2021-02-04 22:08:05.346 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/111  
+2021-02-04 22:08:05.347 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:08:05.360 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:08:05.395 -08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-02-04 22:08:05.397 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 36.3298ms
+2021-02-04 22:08:05.399 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:08:05.399 -08:00 [INF] Request finished in 53.8821ms 500 text/plain; charset=utf-8
+2021-02-04 22:08:06.782 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/111  
+2021-02-04 22:08:06.783 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:08:06.783 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:08:06.802 -08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-02-04 22:08:06.803 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 19.3544ms
+2021-02-04 22:08:06.803 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:08:06.803 -08:00 [INF] Request finished in 21.0755ms 500 text/plain; charset=utf-8
+2021-02-04 22:08:56.213 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/111/345  
+2021-02-04 22:08:56.214 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:08:56.214 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:09:06.755 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 10539.8307ms
+2021-02-04 22:09:06.755 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:09:06.776 -08:00 [ERR] Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(String middleware, Int32 userId) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 69
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:09:06.777 -08:00 [INF] Request finished in 10563.8787ms 500 application/json
+2021-02-04 22:10:01.343 -08:00 [INF] Starting web host
+2021-02-04 22:10:01.882 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 22:10:01.884 -08:00 [INF] Hosting environment: Development
+2021-02-04 22:10:01.885 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 22:10:01.897 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger  
+2021-02-04 22:10:01.938 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/index.html  
+2021-02-04 22:10:01.952 -08:00 [INF] Request finished in 57.507ms 301 
+2021-02-04 22:10:01.984 -08:00 [INF] Request finished in 46.0153ms 200 text/html;charset=utf-8
+2021-02-04 22:10:02.012 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 22:10:02.012 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-bundle.js  
+2021-02-04 22:10:02.012 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui.css  
+2021-02-04 22:10:02.057 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 22:10:02.057 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 22:10:02.057 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 22:10:02.058 -08:00 [INF] Request finished in 46.8608ms 200 application/javascript
+2021-02-04 22:10:02.058 -08:00 [INF] Request finished in 46.8632ms 200 application/javascript
+2021-02-04 22:10:02.058 -08:00 [INF] Request finished in 46.9057ms 200 text/css
+2021-02-04 22:10:02.178 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-bundle.js.map  
+2021-02-04 22:10:02.179 -08:00 [INF] Request finished in 1.2372ms 404 
+2021-02-04 22:10:02.263 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 22:10:02.264 -08:00 [INF] Request finished in 0.5395ms 404 
+2021-02-04 22:10:02.322 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/v1/swagger.json  
+2021-02-04 22:10:02.384 -08:00 [INF] Request finished in 62.6995ms 200 application/json;charset=utf-8
+2021-02-04 22:10:11.382 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/mm/123  
+2021-02-04 22:10:11.388 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:10:11.413 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:10:13.718 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 2299.8424ms
+2021-02-04 22:10:13.720 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:10:13.777 -08:00 [ERR] Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(String middleware, Int32 userId) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 69
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:10:13.863 -08:00 [INF] Request finished in 2480.4493ms 500 application/json
+2021-02-04 22:10:57.035 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/mm/123  
+2021-02-04 22:10:59.336 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:10:59.338 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:11:00.781 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 1442.3179ms
+2021-02-04 22:11:00.781 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:11:00.796 -08:00 [ERR] Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(String middleware, Int32 userId) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 69
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:11:00.797 -08:00 [INF] Request finished in 3762.417ms 500 application/json
+2021-02-04 22:11:49.595 -08:00 [INF] Starting web host
+2021-02-04 22:11:50.127 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 22:11:50.129 -08:00 [INF] Hosting environment: Development
+2021-02-04 22:11:50.130 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 22:11:50.141 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger  
+2021-02-04 22:12:00.141 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/index.html  
+2021-02-04 22:12:00.149 -08:00 [INF] Request finished in 10010.1617ms 301 
+2021-02-04 22:12:00.180 -08:00 [INF] Request finished in 39.3604ms 200 text/html;charset=utf-8
+2021-02-04 22:12:00.203 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 22:12:00.203 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-bundle.js  
+2021-02-04 22:12:00.203 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui.css  
+2021-02-04 22:12:00.243 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 22:12:00.243 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 22:12:00.243 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 22:12:00.245 -08:00 [INF] Request finished in 41.9933ms 200 application/javascript
+2021-02-04 22:12:00.245 -08:00 [INF] Request finished in 41.9934ms 200 text/css
+2021-02-04 22:12:00.245 -08:00 [INF] Request finished in 41.9934ms 200 application/javascript
+2021-02-04 22:12:00.433 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-bundle.js.map  
+2021-02-04 22:12:00.435 -08:00 [INF] Request finished in 1.9572ms 404 
+2021-02-04 22:12:00.517 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 22:12:00.518 -08:00 [INF] Request finished in 0.7354ms 404 
+2021-02-04 22:12:00.566 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/v1/swagger.json  
+2021-02-04 22:12:00.628 -08:00 [INF] Request finished in 62.0835ms 200 application/json;charset=utf-8
+2021-02-04 22:12:08.230 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/mm/123  
+2021-02-04 22:12:08.235 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:12:08.258 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:12:10.450 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 2186.9035ms
+2021-02-04 22:12:10.452 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:12:10.515 -08:00 [ERR] Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(String middleware, Int32 userId) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 69
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:12:14.633 -08:00 [INF] Request finished in 6403.527ms 500 application/json
+2021-02-04 22:14:46.003 -08:00 [INF] Starting web host
+2021-02-04 22:14:46.539 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 22:14:46.541 -08:00 [INF] Hosting environment: Development
+2021-02-04 22:14:46.542 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 22:14:46.553 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger  
+2021-02-04 22:14:46.595 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/index.html  
+2021-02-04 22:14:46.612 -08:00 [INF] Request finished in 60.5483ms 301 
+2021-02-04 22:14:46.643 -08:00 [INF] Request finished in 47.3567ms 200 text/html;charset=utf-8
+2021-02-04 22:14:46.674 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-bundle.js  
+2021-02-04 22:14:46.674 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui.css  
+2021-02-04 22:14:46.674 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 22:14:46.707 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 22:14:46.707 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 22:14:46.707 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 22:14:46.709 -08:00 [INF] Request finished in 34.4596ms 200 text/css
+2021-02-04 22:14:46.709 -08:00 [INF] Request finished in 34.4558ms 200 application/javascript
+2021-02-04 22:14:46.709 -08:00 [INF] Request finished in 34.46ms 200 application/javascript
+2021-02-04 22:14:46.856 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-bundle.js.map  
+2021-02-04 22:14:46.857 -08:00 [INF] Request finished in 1.0229ms 404 
+2021-02-04 22:14:46.938 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 22:14:46.938 -08:00 [INF] Request finished in 0.5891ms 404 
+2021-02-04 22:14:46.987 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/v1/swagger.json  
+2021-02-04 22:14:47.046 -08:00 [INF] Request finished in 59.6823ms 200 application/json;charset=utf-8
+2021-02-04 22:14:59.912 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/mm/123  
+2021-02-04 22:14:59.916 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:14:59.939 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:15:01.756 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 1811.5133ms
+2021-02-04 22:15:01.758 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:15:04.088 -08:00 [ERR] Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(String middleware, Int32 userId) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 69
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:15:13.704 -08:00 [INF] Gem Cloud: HandleExceptionAsync
+2021-02-04 22:15:18.602 -08:00 [INF] Request finished in 18690.8812ms 500 application/json
+2021-02-04 22:19:06.499 -08:00 [INF] Starting web host
+2021-02-04 22:19:07.080 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-04 22:19:07.082 -08:00 [INF] Hosting environment: Development
+2021-02-04 22:19:07.082 -08:00 [INF] Content root path: C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log
+2021-02-04 22:19:07.094 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger  
+2021-02-04 22:19:07.124 -08:00 [INF] HTTP GET /swagger responded 301 in 25.8935 ms
+2021-02-04 22:19:07.148 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/index.html  
+2021-02-04 22:19:07.159 -08:00 [INF] Request finished in 67.2187ms 301 
+2021-02-04 22:19:07.191 -08:00 [INF] HTTP GET /swagger/index.html responded 200 in 42.5858 ms
+2021-02-04 22:19:07.191 -08:00 [INF] Request finished in 45.9378ms 200 text/html;charset=utf-8
+2021-02-04 22:19:07.220 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui.css  
+2021-02-04 22:19:07.220 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-bundle.js  
+2021-02-04 22:19:07.220 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js  
+2021-02-04 22:19:07.270 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-04 22:19:07.270 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-04 22:19:07.270 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-04 22:19:07.271 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 50.8814 ms
+2021-02-04 22:19:07.271 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 50.8981 ms
+2021-02-04 22:19:07.271 -08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 50.9164 ms
+2021-02-04 22:19:07.271 -08:00 [INF] Request finished in 51.4543ms 200 application/javascript
+2021-02-04 22:19:07.271 -08:00 [INF] Request finished in 51.464ms 200 application/javascript
+2021-02-04 22:19:07.271 -08:00 [INF] Request finished in 51.4649ms 200 text/css
+2021-02-04 22:19:07.384 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-bundle.js.map  
+2021-02-04 22:19:07.385 -08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js.map responded 404 in 0.4679 ms
+2021-02-04 22:19:07.386 -08:00 [INF] Request finished in 1.192ms 404 
+2021-02-04 22:19:07.466 -08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js.map  
+2021-02-04 22:19:07.466 -08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js.map responded 404 in 0.1151 ms
+2021-02-04 22:19:07.466 -08:00 [INF] Request finished in 0.5075ms 404 
+2021-02-04 22:19:07.515 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/swagger/v1/swagger.json  
+2021-02-04 22:19:07.575 -08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 59.7847 ms
+2021-02-04 22:19:07.575 -08:00 [INF] Request finished in 60.0596ms 200 application/json;charset=utf-8
+2021-02-04 22:22:03.795 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/mm/123  
+2021-02-04 22:22:03.800 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:22:03.829 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:22:05.756 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 1919.9271ms
+2021-02-04 22:22:05.757 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:22:05.815 -08:00 [ERR] ExceptionMiddleware says: Something went wrong: System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(String middleware, Int32 userId) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 69
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Poc.GlobalErrorHandling.Serilog.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Middleware\ExceptionMiddleware.cs:line 29
+2021-02-04 22:22:05.815 -08:00 [INF] Gem Cloud: HandleExceptionAsync
+2021-02-04 22:22:05.936 -08:00 [ERR] HTTP GET /WeatherForecast/mm/123 responded 500 in 2109.8350 ms
+2021-02-04 22:22:05.936 -08:00 [INF] Request finished in 2141.7976ms 500 application/json
+2021-02-04 22:22:35.801 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast/123  
+2021-02-04 22:22:35.802 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:22:35.806 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:22:35.829 -08:00 [ERR] WeatherForecastController says : System.Exception: Exception while fetching all the students from the storage.
+   at Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get(Int32 key) in C:\VGuanPoc\POC.Identity\Poc.GlobalErrorHandling.Log\Controllers\WeatherForecastController.cs:line 47
+2021-02-04 22:22:35.833 -08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-02-04 22:22:35.834 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 26.9658ms
+2021-02-04 22:22:35.834 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:22:35.834 -08:00 [ERR] HTTP GET /WeatherForecast/123 responded 500 in 32.4787 ms
+2021-02-04 22:22:35.834 -08:00 [INF] Request finished in 33.4346ms 500 text/plain; charset=utf-8
+2021-02-04 22:22:55.726 -08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44305/WeatherForecast  
+2021-02-04 22:22:55.727 -08:00 [INF] Executing endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:22:55.729 -08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Poc.GlobalErrorHandling.Serilog.WeatherForecast] Get() on controller Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController (Poc.GlobalErrorHandling.Serilog).
+2021-02-04 22:22:58.805 -08:00 [INF] called weather forecast
+2021-02-04 22:22:58.817 -08:00 [INF] Executing ObjectResult, writing value of type 'Poc.GlobalErrorHandling.Serilog.WeatherForecast[]'.
+2021-02-04 22:22:58.821 -08:00 [INF] Executed action Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog) in 3091.8662ms
+2021-02-04 22:22:58.821 -08:00 [INF] Executed endpoint 'Poc.GlobalErrorHandling.Serilog.Controllers.WeatherForecastController.Get (Poc.GlobalErrorHandling.Serilog)'
+2021-02-04 22:22:58.821 -08:00 [INF] HTTP GET /WeatherForecast responded 200 in 3094.7302 ms
+2021-02-04 22:22:58.821 -08:00 [INF] Request finished in 3095.3428ms 200 application/json; charset=utf-8
