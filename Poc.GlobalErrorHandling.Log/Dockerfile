@@ -10,16 +10,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["Poc.GlobalErrorHandling.Log/Poc.GlobalErrorHandling.Log.csproj", "Poc.GlobalErrorHandling.Log/"]
-RUN dotnet restore "Poc.GlobalErrorHandling.Log/Poc.GlobalErrorHandling.Log.csproj"
+COPY ["Poc.GlobalErrorHandling.Serilog/Poc.GlobalErrorHandling.Serilog.csproj", "Poc.GlobalErrorHandling.Serilog/"]
+RUN dotnet restore "Poc.GlobalErrorHandling.Serilog/Poc.GlobalErrorHandling.Serilog.csproj"
 COPY . .
-WORKDIR "/src/Poc.GlobalErrorHandling.Log"
-RUN dotnet build "Poc.GlobalErrorHandling.Log.csproj" -c Release -o /app/build
+WORKDIR "/src/Poc.GlobalErrorHandling.Serilog"
+RUN dotnet build "Poc.GlobalErrorHandling.Serilog.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Poc.GlobalErrorHandling.Log.csproj" -c Release -o /app/publish
+RUN dotnet publish "Poc.GlobalErrorHandling.Serilog.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Poc.GlobalErrorHandling.Log.dll"]
+ENTRYPOINT ["dotnet", "Poc.GlobalErrorHandling.Serilog.dll"]

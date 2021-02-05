@@ -7,13 +7,16 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Poc.GlobalErrorHandling.Log.Extensions;
+using Poc.GlobalErrorHandling.Serilog.Extensions;
+using Poc.GlobalErrorHandling.Serilog.Middleware;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Serilog;
+using ILogger = Serilog.ILogger;
 
-namespace Poc.GlobalErrorHandling.Log
+namespace Poc.GlobalErrorHandling.Serilog
 {
     public class Startup
     {
@@ -33,14 +36,17 @@ namespace Poc.GlobalErrorHandling.Log
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env) //, ILogger seriLogger) 
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+            // ==== ## SerilogMiddleware. ===============>
+            app.UseMiddleware<SerilogMiddleware>();
+
             // ==== ## Use built-in Middleware app.UseExceptionHandler. ===============>
-            app.ConfigureExceptionHandler();
+            //app.ConfigureExceptionHandler(seriLogger);
             // ==== ## Use Custom Exception Middleware. ===============>
             app.ConfigureCustomExceptionMiddleware();
 
@@ -50,7 +56,7 @@ namespace Poc.GlobalErrorHandling.Log
 
             app.UseAuthorization();
             // ==== ## use AddSwaggerGen ===============>
-            app.UseSwaggerDocumentation("Poc.GlobalErrorHandling.Log V1.0");
+            app.UseSwaggerDocumentation("Poc.GlobalErrorHandling.Serilog V1.0");
 
             app.UseEndpoints(endpoints =>
             {

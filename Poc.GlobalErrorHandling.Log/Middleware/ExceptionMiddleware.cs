@@ -1,19 +1,24 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Poc.GlobalErrorHandling.Log.Models;
+using Poc.GlobalErrorHandling.Serilog.Models;
 using System;
 using System.Net;
 using System.Threading.Tasks;
+using Serilog;
+using Microsoft.Extensions.Logging;
+//using ILogger = Serilog.ILogger;
 
-namespace Poc.GlobalErrorHandling.Log.Middleware
+namespace Poc.GlobalErrorHandling.Serilog.Middleware
 {
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
         //private readonly ILoggerManager _logger;
+        private readonly ILogger<ExceptionMiddleware> _logger;
+        //private readonly ILogger<ExceptionMiddleware> _logger;
 
-        public ExceptionMiddleware(RequestDelegate next )//, ILoggerManager logger)
+        public ExceptionMiddleware(RequestDelegate next , ILogger<ExceptionMiddleware> logger)
         {
-            //_logger = logger;
+            _logger = logger;
             _next = next;
         }
 
@@ -25,7 +30,7 @@ namespace Poc.GlobalErrorHandling.Log.Middleware
             }
             catch (Exception ex)
             {
-                //_logger.LogError($"Something went wrong: {ex}");
+                _logger.LogError($"ExceptionMiddleware says: Something went wrong: {ex}");
                 await HandleExceptionAsync(httpContext, ex);
             }
         }
@@ -34,6 +39,7 @@ namespace Poc.GlobalErrorHandling.Log.Middleware
         {
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+            _logger.LogWarning("Gem Cloud: HandleExceptionAsync");
 
             return context.Response.WriteAsync(new ErrorDetailModel()
             {

@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
-using Poc.GlobalErrorHandling.Log.Middleware;
-using Poc.GlobalErrorHandling.Log.Models;
+using Microsoft.Extensions.Logging;
+using Poc.GlobalErrorHandling.Serilog.Middleware;
+using Poc.GlobalErrorHandling.Serilog.Models;
+using Serilog;
 using System.Net;
+using ILogger = Serilog.ILogger;
 
-namespace Poc.GlobalErrorHandling.Log.Extensions
+namespace Poc.GlobalErrorHandling.Serilog.Extensions
 {
     public static class ExceptionMiddlewareExtensions
     {
@@ -22,7 +25,7 @@ namespace Poc.GlobalErrorHandling.Log.Extensions
         /// The UseExceptionHandler middleware is a built-in middleware
         /// </summary>
         /// <param name="app"></param>
-        public static void ConfigureExceptionHandler(this IApplicationBuilder app) //, ILoggerManager logger)
+        public static void ConfigureExceptionHandler(this IApplicationBuilder app, ILogger seriLogger) //, ILoggerManager logger)
         {
             // built-in middleware
             app.UseExceptionHandler(appError =>
@@ -35,12 +38,13 @@ namespace Poc.GlobalErrorHandling.Log.Extensions
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
                     if (contextFeature != null)
                     {
-                        //logger.LogError($"Something went wrong: {contextFeature.Error}");
+                        //LogError($"Something went wrong: {contextFeature.Error}");
+                        seriLogger.Information($"Something went wrong: {contextFeature.Error}");
 
                         await context.Response.WriteAsync(new ErrorDetailModel()
                         {
                             StatusCode = context.Response.StatusCode,
-                            Message = "Internal Server Error."
+                            Message = "Middleware says: Internal Server Error. "
                         }.ToString());
                     }
                 });

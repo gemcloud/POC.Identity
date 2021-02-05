@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Poc.GlobalErrorHandling.Log": {
+    "Poc.GlobalErrorHandling.Serilog": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

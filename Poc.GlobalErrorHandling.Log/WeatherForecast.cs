@@ -1,6 +1,6 @@
 using System;
 
-namespace Poc.GlobalErrorHandling.Log
+namespace Poc.GlobalErrorHandling.Serilog
 {
     public class WeatherForecast
     {

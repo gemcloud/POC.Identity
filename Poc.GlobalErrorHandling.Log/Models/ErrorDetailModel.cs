@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Poc.GlobalErrorHandling.Log.Models
+namespace Poc.GlobalErrorHandling.Serilog.Models
 {
     public class ErrorDetailModel
     {

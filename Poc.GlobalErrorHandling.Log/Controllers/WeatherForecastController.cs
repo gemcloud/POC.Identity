@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Poc.GlobalErrorHandling.Log.Controllers
+namespace Poc.GlobalErrorHandling.Serilog.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -56,14 +56,14 @@ namespace Poc.GlobalErrorHandling.Log.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Something went wrong: {ex}");
+                _logger.LogError($"WeatherForecastController says : {ex}");
                 return StatusCode(500, "Try-Catch Block Internal server error ");
             }
         }
 
-        [HttpGet("{middleware}")]
+        [HttpGet("{middleware}/{userId}")]
         [SwaggerOperation(summary: "middleware Global Error Handling Aspnetcore 3.1")]
-        public IActionResult Get(string middleware)
+        public IActionResult Get(string middleware, int userId)
         {
 
                 throw new Exception("Exception while fetching all the students from the storage.");

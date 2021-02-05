@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.OData.WebApi", "Poc.ODa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gem.Extensions.OData.Swagger", "Gem.Extensions.OData.Swagger\Gem.Extensions.OData.Swagger.csproj", "{C79E0B73-827C-404D-ACAD-F00694141891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.GlobalErrorHandling.Log", "Poc.GlobalErrorHandling.Log\Poc.GlobalErrorHandling.Log.csproj", "{FDAE5B04-EF4A-4A8D-93BA-E15E4CB3C0DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.GlobalErrorHandling.Serilog", "Poc.GlobalErrorHandling.Log\Poc.GlobalErrorHandling.Serilog.csproj", "{FDAE5B04-EF4A-4A8D-93BA-E15E4CB3C0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.Repository", "Poc.Repository\Poc.Repository.csproj", "{E8CD70B2-1862-4D45-B5FC-8060806254CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Repository", "Poc.Repository\Poc.Repository.csproj", "{E8CD70B2-1862-4D45-B5FC-8060806254CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
